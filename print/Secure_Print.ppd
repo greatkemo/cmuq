@@ -1,0 +1,162 @@
+*PPD-Adobe: "4.3"
+*% PPD created by ipp2ppd (v2:Feb  1 2018)
+*FormatVersion: "4.3"
+*FileVersion: "2.0"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*FileSystem: False
+*cupsVersion: 2.0
+*cupsModelNumber: 0
+*cupsSNMPSupplies: False
+*APAirPrint: True
+*APAirPrintVersion: 1.1
+*APURFVersion: 1.1
+*% WARNING missing printer-firmware-name and/or printer-firmware-string-version.
+*cupsLanguages: "en"
+*PCFileName: "APHPUNIV.PPD"
+*ModelName: "HP Universal Printing PCL 6  v6.6.0 "
+*Product: (HP Universal Printing PCL 6 [v6.6.0])
+*ShortNickName: "HP Universal Printing PCL 6 [v6.6.0]"
+*Manufacturer: "HP"
+*NickName: "HP Universal Printing PCL 6 [v6.6.0]-AirPrint"
+*Throughput: 10
+*cupsSingleFile: True
+*cupsFilter2: "application/vnd.cups-pdf application/pdf 0 maxsize(0) -"
+*cupsFilter: "application/vnd.cups-pdf 0 -"
+*cupsFilter2: "image/jpeg image/jpeg 0 maxsize(0) -"
+*cupsFilter: "image/jpeg 0 -"
+*cupsFilter2: "image/urf image/urf 10 -"
+*cupsFilter: "image/urf 10 -"
+*cupsMaxCopies: 9999
+*OpenUI *Collate: PickOne
+*OrderDependency: 10 AnySetup *Collate
+*DefaultCollate: False
+*Collate True: "<</Collate true>>setpagedevice"
+*Collate False: "<</Collate false>>setpagedevice"
+*CloseUI: *Collate
+*ColorDevice: True
+*APColorSpaces: true
+*DefaultColorSpace: RGB
+*cupsICCProfile Gray../Grayscale: "/System/Library/ColorSync/Profiles/Generic Gray Gamma 2.2 Profile.icc"
+*cupsICCProfile RGB../Color: "/System/Library/ColorSync/Profiles/sRGB Profile.icc"
+*OpenUI *ColorModel/Color Mode: PickOne
+*OrderDependency: 10 AnySetup *ColorModel
+*DefaultColorModel: RGB
+*ColorModel Gray/Grayscale: "<</cupsColorSpace 18/cupsBitsPerColor 8/cupsColorOrder 0/cupsCompression 0>>setpagedevice"
+*ColorModel RGB/Color: "<</cupsColorSpace 19/cupsBitsPerColor 8/cupsColorOrder 0/cupsCompression 0>>setpagedevice"
+*CloseUI: *ColorModel
+*% WARNING required landscape-orientation-requested-preferred not found. Using default
+*LandscapeOrientation: Plus90
+*DefaultResolution: 600x600dpi
+*OpenUI *cupsPrintQuality/Quality: PickOne
+*OrderDependency: 10 AnySetup *cupsPrintQuality
+*DefaultcupsPrintQuality: Normal
+*cupsPrintQuality Draft: "<</cupsInteger1 3 /HWResolution[300 300]>>setpagedevice"
+*cupsPrintQuality Normal: "<</cupsInteger1 4 /HWResolution[600 600]>>setpagedevice"
+*cupsPrintQuality High: "<</cupsInteger1 5 /HWResolution[600 600]>>setpagedevice"
+*CloseUI: *cupsPrintQuality
+*cupsBackSide: Rotated
+*OpenUI *Duplex/2-Sided Printing: PickOne
+*OrderDependency: 10 AnySetup *Duplex
+*DefaultDuplex: DuplexNoTumble
+*Duplex None/Off (1-Sided): "<</Duplex false>>setpagedevice"
+*Duplex DuplexNoTumble/Long-Edge (Portrait): "<</Duplex true/Tumble false>>setpagedevice"
+*Duplex DuplexTumble/Short-Edge (Landscape): "<</Duplex true/Tumble true>>setpagedevice"
+*CloseUI: *Duplex
+*DefaultOutputOrder: Normal
+*% WARNING required landscape-orientation-requested-preferred not found. Using default
+*APHasMediaReady: True
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: Letter
+*PageSize A3: "<</PageSize[841.8898 1190.5512]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize A3.Fullbleed: "<</PageSize[841.8898 1190.5512]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize A4: "<</PageSize[595.2756 841.8898]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize A4.Fullbleed: "<</PageSize[595.2756 841.8898]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize A5: "<</PageSize[419.5276 595.2756]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize A5.Fullbleed: "<</PageSize[419.5276 595.2756]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize A6: "<</PageSize[297.6378 419.5276]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize A6.Fullbleed: "<</PageSize[297.6378 419.5276]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize Env10: "<</PageSize[296.9858 684.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize EnvDL: "<</PageSize[311.8110 623.6220]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize Legal: "<</PageSize[612.0000 1008.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize Legal.Fullbleed: "<</PageSize[612.0000 1008.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize Letter: "<</PageSize[612.0000 792.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize Letter.Fullbleed: "<</PageSize[612.0000 792.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*CloseUI: *PageSize
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: Letter
+*PageRegion A3: "<</PageSize[841.8898 1190.5512]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion A3.Fullbleed: "<</PageSize[841.8898 1190.5512]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion A4: "<</PageSize[595.2756 841.8898]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion A4.Fullbleed: "<</PageSize[595.2756 841.8898]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion A5: "<</PageSize[419.5276 595.2756]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion A5.Fullbleed: "<</PageSize[419.5276 595.2756]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion A6: "<</PageSize[297.6378 419.5276]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion A6.Fullbleed: "<</PageSize[297.6378 419.5276]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion Env10: "<</PageSize[296.9858 684.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion EnvDL: "<</PageSize[311.8110 623.6220]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion Legal: "<</PageSize[612.0000 1008.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion Legal.Fullbleed: "<</PageSize[612.0000 1008.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion Letter: "<</PageSize[612.0000 792.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion Letter.Fullbleed: "<</PageSize[612.0000 792.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*CloseUI: *PageRegion
+*DefaultImageableArea: Letter
+*DefaultPaperDimension: Letter
+*PaperDimension A3: "841.8898 1190.5512"
+*ImageableArea A3: "18.0000 18.0000 823.8898 1172.5512"
+*PaperDimension A3.Fullbleed: "841.8898 1190.5512"
+*ImageableArea A3.Fullbleed: "0.0000 0.0000 841.8898 1190.5512"
+*PaperDimension A4: "595.2756 841.8898"
+*ImageableArea A4: "18.0000 18.0000 577.2756 823.8898"
+*PaperDimension A4.Fullbleed: "595.2756 841.8898"
+*ImageableArea A4.Fullbleed: "0.0000 0.0000 595.2756 841.8898"
+*PaperDimension A5: "419.5276 595.2756"
+*ImageableArea A5: "18.0000 18.0000 401.5276 577.2756"
+*PaperDimension A5.Fullbleed: "419.5276 595.2756"
+*ImageableArea A5.Fullbleed: "0.0000 0.0000 419.5276 595.2756"
+*PaperDimension A6: "297.6378 419.5276"
+*ImageableArea A6: "18.0000 18.0000 279.6378 401.5276"
+*PaperDimension A6.Fullbleed: "297.6378 419.5276"
+*ImageableArea A6.Fullbleed: "0.0000 0.0000 297.6378 419.5276"
+*PaperDimension Env10: "296.9858 684.0000"
+*ImageableArea Env10: "18.0000 18.0000 278.9858 666.0000"
+*PaperDimension EnvDL: "311.8110 623.6220"
+*ImageableArea EnvDL: "18.0000 18.0000 293.8110 605.6220"
+*PaperDimension Legal: "612.0000 1008.0000"
+*ImageableArea Legal: "18.0000 18.0000 594.0000 990.0000"
+*PaperDimension Legal.Fullbleed: "612.0000 1008.0000"
+*ImageableArea Legal.Fullbleed: "0.0000 0.0000 612.0000 1008.0000"
+*PaperDimension Letter: "612.0000 792.0000"
+*ImageableArea Letter: "18.0000 18.0000 594.0000 774.0000"
+*PaperDimension Letter.Fullbleed: "612.0000 792.0000"
+*ImageableArea Letter.Fullbleed: "0.0000 0.0000 612.0000 792.0000"
+*APPrinterPreset DraftGray_with_Paper_Auto-Detect/Black and White - Draft: "
+	*cupsPrintQuality Draft
+	*ColorModel Gray
+	*Duplex DuplexNoTumble
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality draft
+	com.apple.print.preset.media-front-coating autodetect
+	com.apple.print.preset.output-mode monochrome"
+*End
+*APPrinterPreset Gray_with_Paper_Auto-Detect/Black and White: "
+	*cupsPrintQuality Normal
+	*ColorModel Gray
+	*Duplex DuplexNoTumble
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating autodetect
+	com.apple.print.preset.output-mode monochrome"
+*End
+*APPrinterPreset Color_with_Paper_Auto-Detect/Color: "
+	*cupsPrintQuality Normal
+	*ColorModel RGB
+	*Duplex DuplexNoTumble
+	com.apple.print.preset.graphicsType General
+	com.apple.print.preset.quality mid
+	com.apple.print.preset.media-front-coating autodetect"
+*End
